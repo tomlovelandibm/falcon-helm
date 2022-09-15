@@ -192,7 +192,7 @@ helm show values crowdstrike/falcon-sensor
 
 #### Note about using --set with lists
 
-If you need to provide a list of values to a `--set` command, you need to escape the commas between the values e.g. `--set falcon.tags="tag1\,tag2\,tag3"`
+If you need to provide a list of values to a `--set` command, you need to escape the commas between the values e.g. `--set falcon.tags="tag1/value\,tag2/value\,tag3/value"`
 
 #### Example using container.image.sensorResources
 
